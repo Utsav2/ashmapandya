@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ashma Pandya</title>
+<meta name="description" content="Ashma Pandya — Ph.D. Candidate in Chemistry at Caltech, NSF Graduate Research Fellow. Laboratory planetary science, spectroscopy, and radiation chemistry of icy worlds.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #1a1a1a;
+    --muted: #5c5c5c;
+    --faint: #8a8a8a;
+    --line: #e6e3dd;
+    --bg: #fbfaf7;
+    --accent: #6b4a2b;
+    --accent-soft: #9a7b53;
+    --max: 720px;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: "Newsreader", Georgia, serif;
+    font-size: 19px;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: var(--accent); text-decoration: none; border-bottom: 1px solid rgba(107,74,43,0.28); transition: border-color .15s, color .15s; }
+  a:hover { color: var(--accent-soft); border-bottom-color: var(--accent-soft); }
+
+  /* Nav */
+  nav {
+    position: sticky; top: 0; z-index: 10;
+    background: rgba(251,250,247,0.88);
+    backdrop-filter: blur(8px);
+    border-bottom: 1px solid var(--line);
+  }
+  nav .wrap {
+    max-width: var(--max); margin: 0 auto; padding: 14px 24px;
+    display: flex; flex-wrap: wrap; gap: 4px 20px; align-items: baseline;
+    font-family: "Inter", sans-serif;
+  }
+  nav .name { font-weight: 600; font-size: 15px; letter-spacing: .02em; margin-right: auto; border: none; color: var(--ink); }
+  nav a.link { font-size: 13.5px; color: var(--muted); border: none; text-transform: uppercase; letter-spacing: .07em; }
+  nav a.link:hover { color: var(--accent); }
+
+  main { max-width: var(--max); margin: 0 auto; padding: 0 24px 120px; }
+
+  /* Hero */
+  header.hero { padding: 72px 0 8px; }
+  h1 { font-size: 44px; font-weight: 500; line-height: 1.1; margin: 0 0 14px; letter-spacing: -0.01em; }
+  .role { font-family: "Inter", sans-serif; font-size: 15px; color: var(--muted); font-weight: 500; margin: 0 0 26px; letter-spacing: .01em; }
+  .role .sep { color: var(--faint); margin: 0 8px; }
+  .lede { font-size: 20px; color: var(--ink); margin: 0 0 18px; }
+  .hero p { color: #2c2c2c; }
+
+  .toplinks { font-family: "Inter", sans-serif; font-size: 14px; margin: 30px 0 0; display: flex; flex-wrap: wrap; gap: 10px 14px; }
+  .toplinks a {
+    border: 1px solid var(--line); border-radius: 999px; padding: 7px 16px;
+    color: var(--muted); background: #fff;
+  }
+  .toplinks a:hover { color: var(--accent); border-color: var(--accent-soft); }
+
+  /* Sections */
+  section { padding-top: 64px; }
+  h2 {
+    font-family: "Inter", sans-serif; font-size: 13px; font-weight: 600;
+    text-transform: uppercase; letter-spacing: .14em; color: var(--accent);
+    margin: 0 0 22px; padding-bottom: 10px; border-bottom: 1px solid var(--line);
+  }
+  h3 { font-size: 22px; font-weight: 600; margin: 34px 0 8px; }
+  h3:first-of-type { margin-top: 0; }
+  .affil { font-family: "Inter", sans-serif; font-size: 13px; color: var(--faint); text-transform: uppercase; letter-spacing: .06em; margin: -4px 0 12px; }
+  p { margin: 0 0 18px; }
+
+  .pubs { list-style: none; padding: 0; margin: 10px 0 0; }
+  .pubs li { margin: 0 0 12px; padding-left: 18px; position: relative; font-size: 17px; color: var(--muted); }
+  .pubs li::before { content: "→"; position: absolute; left: 0; color: var(--accent-soft); }
+  .pubs li a { color: var(--ink); }
+
+  .note { font-size: 16px; color: var(--faint); }
+
+  footer { max-width: var(--max); margin: 0 auto; padding: 40px 24px 80px; font-family: "Inter", sans-serif; font-size: 13px; color: var(--faint); border-top: 1px solid var(--line); }
+
+  @media (max-width: 600px) {
+    body { font-size: 18px; }
+    h1 { font-size: 34px; }
+    header.hero { padding-top: 48px; }
+    nav .wrap { gap: 4px 14px; }
+    nav .name { width: 100%; margin-bottom: 4px; }
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="wrap">
+    <a href="#top" class="name">Ashma Pandya</a>
+    <a href="#about" class="link">About</a>
+    <a href="#research" class="link">Research</a>
+    <a href="#publications" class="link">Publications</a>
+    <a href="#news" class="link">News</a>
+    <a href="#teaching" class="link">Teaching</a>
+    <a href="#contact" class="link">Contact</a>
+  </div>
+</nav>
+
+<main id="top">
+
+  <header class="hero">
+    <h1>Ashma Pandya</h1>
+    <p class="role">Ph.D. Candidate in Chemistry<span class="sep">·</span>Caltech<span class="sep">·</span>NSF Graduate Research Fellow</p>
+    <p class="lede">Exploring the chemistry of planetary surfaces through laboratory spectroscopy, radiation chemistry, and telescopic observations.</p>
+    <p>My research investigates how radiation affects the surfaces of icy worlds, helping us interpret observations from spacecraft and telescopes and better understand the evolution of planetary surfaces.</p>
+    <div class="toplinks">
+      <a href="#" target="_blank" rel="noopener">CV</a>
+      <a href="#" target="_blank" rel="noopener">Google Scholar</a>
+      <a href="#" target="_blank" rel="noopener">ORCID</a>
+      <a href="#" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+  </header>
+
+  <section id="about">
+    <h2>About</h2>
+    <p>I am a Ph.D. candidate at Caltech working with Mike Brown. My work focuses on laboratory planetary science, using spectroscopy and radiation chemistry to investigate the processes shaping icy worlds across the Solar System. I am particularly interested in understanding how energetic radiation transforms planetary materials and how those products can be identified using telescopic observations. By recreating planetary surface conditions in the laboratory, I aim to bridge the gap between experimental chemistry and spacecraft observations, improving our understanding of the composition and evolution of worlds such as Jupiter&rsquo;s moon Europa.</p>
+    <p>Before joining Caltech, I completed undergraduate degrees in Chemistry and Biophysics at Johns Hopkins University, where I worked in prebiotic chemistry with <a href="https://www.friedlab.com/" target="_blank" rel="noopener">Dr. Stephen Fried</a>, studying peptide self-assembly and origins-of-life chemistry. Earlier research with <a href="https://www.ainguyenlab.com/" target="_blank" rel="noopener">Dr. Andy Nguyen</a> at the University of Illinois Chicago focused on designing porous peptide-based materials through supramolecular self-assembly. I also interned with <a href="https://sites.google.com/view/anshub/home" target="_blank" rel="noopener">Dr. Anshu Bhardwaj</a> at the Institute of Microbial Technology during high school in India, working on antibiotic resistance and later on identifying potential COVID-19 inhibitors.</p>
+    <p>Although my research experience spans multiple fields which may seem distinct, they are united by a common interest in understanding how chemistry gives rise to complex systems &mdash; from molecular self-assembly and biological evolution to the chemical evolution of planetary surfaces.</p>
+  </section>
+
+  <section id="research">
+    <h2>Research</h2>
+
+    <h3>Planetary Science</h3>
+    <p class="affil">Caltech</p>
+    <p>My current research focuses on radiation-driven chemistry on icy planetary bodies, particularly Europa. Using a cryogenic ultra-high-vacuum setup, electron irradiation, infrared spectroscopy, and residual gas analysis, I investigate how energetic particles alter carbonate minerals and produce CO&#8322; under Europa-like conditions.</p>
+    <p>These laboratory studies provide critical context for interpreting observations from missions and telescopes such as the James Webb Space Telescope and help evaluate competing hypotheses for the origin and reservoir of CO&#8322; observed on Europa and other icy satellites. My recent work constituted the first experimental evidence that carbonate salts can be contributors to Europa&rsquo;s CO&#8322; budget. Besides carbonates on Europa, I also contributed to research about the moons of Saturn and Uranus.</p>
+    <ul class="pubs">
+      <li><a href="https://iopscience.iop.org/article/10.3847/PSJ/ae595b" target="_blank" rel="noopener">The Planetary Science Journal &mdash; 10.3847/PSJ/ae595b</a></li>
+      <li><a href="https://iopscience.iop.org/article/10.3847/PSJ/ade807" target="_blank" rel="noopener">The Planetary Science Journal &mdash; 10.3847/PSJ/ade807</a></li>
+      <li><a href="https://www.pnas.org/doi/10.1073/pnas.2519276123" target="_blank" rel="noopener">PNAS &mdash; 10.1073/pnas.2519276123</a></li>
+    </ul>
+
+    <h3>Origins of Life Chemistry</h3>
+    <p class="affil">Johns Hopkins University</p>
+    <p>As a junior, I worked with Dr. Stephen Fried on a project exploring the potential of amyloid-forming peptides to serve as catalytic molecules that undergo self-replication through wet&ndash;dry cycles, providing insight into possible mechanisms for molecular evolution before life emerged.</p>
+
+    <h3>Supramolecular Chemistry</h3>
+    <p class="affil">University of Illinois Chicago</p>
+    <p>In my first two years of undergrad, I worked with Dr. Andy Nguyen to design self-assembling peptide frameworks capable of forming porous, protein-like architectures with tunable molecular recognition. This work combined peptide design, structural characterization, and materials chemistry to engineer and characterize functional supramolecular assemblies.</p>
+    <ul class="pubs">
+      <li><a href="https://pubs.acs.org/doi/10.1021/jacs.2c02146" target="_blank" rel="noopener">Journal of the American Chemical Society &mdash; 10.1021/jacs.2c02146</a></li>
+      <li><a href="https://pubs.acs.org/doi/10.1021/acs.biomac.3c01418" target="_blank" rel="noopener">Biomacromolecules &mdash; 10.1021/acs.biomac.3c01418</a></li>
+    </ul>
+
+    <h3>Bioinformatics</h3>
+    <p class="affil">CSIR &mdash; Institute of Microbial Technology (High School)</p>
+    <p>Early in my research career, I worked with Dr. Anshu Bhardwaj at the CSIR&ndash;Institute of Microbial Technology, applying computational approaches to challenges in infectious disease and drug discovery. I analyzed antimicrobial resistance trends across priority bacterial pathogens and co-authored a book chapter on systems-level approaches to drug repurposing. This experience introduced me to data-driven biological research and the role of computational methods in addressing global health challenges. I also contributed to the SARS-CoV-2 Inhibitor Open Repository (SAVIOR), a crowdsourced resource that curated potential COVID-19 inhibitors from open chemical libraries during the pandemic.</p>
+  </section>
+
+  <section id="publications">
+    <h2>Publications</h2>
+    <p>A full list of my publications is available below.</p>
+    <div class="toplinks">
+      <a href="#" target="_blank" rel="noopener">All (chronological)</a>
+      <a href="#" target="_blank" rel="noopener">Browse by discipline</a>
+    </div>
+  </section>
+
+  <section id="news">
+    <h2>News &amp; Honors</h2>
+    <ul class="pubs">
+      <li>NSF Graduate Research Fellow</li>
+      <li>Barry Goldwater Scholar</li>
+    </ul>
+    <p class="note">Additional honors, links, and press coverage to be added.</p>
+  </section>
+
+  <section id="teaching">
+    <h2>Teaching &amp; Outreach</h2>
+    <p>I enjoy mentoring students at different stages of their scientific careers. At Caltech I have mentored undergraduate researchers through the Caltech Connection program, and tutored general chemistry through the Caltech Y RISE program.</p>
+    <p>Previously, at Johns Hopkins, I served as a teaching assistant for both an introductory computing course and the First Generation Undergraduate Research Experience (FiGURE), where I mentored first-year students conducting research in prebiotic chemistry.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>I&rsquo;m always happy to connect about planetary science, spectroscopy, laboratory astrophysics, or opportunities for collaboration &mdash; as well as to answer any questions about the field or about pursuing research and a Ph.D.</p>
+    <div class="toplinks">
+      <a href="mailto:apandya@caltech.edu">apandya@caltech.edu</a>
+      <a href="#" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="#" target="_blank" rel="noopener">Google Scholar</a>
+      <a href="#" target="_blank" rel="noopener">ORCID</a>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  &copy; <span id="year">2026</span> Ashma Pandya
+</footer>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
